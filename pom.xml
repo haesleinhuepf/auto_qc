@@ -102,33 +102,22 @@
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-legacy</artifactId>
-			<version>0.29.0</version>
 		</dependency>
 		<dependency>
-			<groupId>ome</groupId>
-			<artifactId>formats-api</artifactId>
+			<groupId>metroloJ</groupId>
+			<artifactId>MetroloJ</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>C:/structure/code/auto_qc/metroloj_.jar</systemPath>
 		</dependency>
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>ij</artifactId>
-			<version>1.52i</version>
-		</dependency>
-		<dependency>
-		<groupId>metroloJ</groupId>
-		<artifactId>MetroloJ</artifactId>
-		<version>1.0</version>
-		<scope>system</scope>
-		<systemPath>/home/schmiedc/Desktop/FMP_Docs/DevelopmentEnv/Fiji/Fiji.app/plugins/metroloj_.jar</systemPath>
-	</dependency>
 		<dependency>
 			<groupId>ome</groupId>
 			<artifactId>bio-formats_plugins</artifactId>
-			<version>5.9.0</version>
 			<exclusions>
 				<exclusion>
-				<groupId>ch.systems.cisd</groupId>
-				<artifactId>jhdf5</artifactId>
-			</exclusion>
+					<groupId>net.imagej</groupId>
+					<artifactId>ij</artifactId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 	</dependencies>
